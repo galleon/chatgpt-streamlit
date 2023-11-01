@@ -1,0 +1,9 @@
+chromadb
+fastapi
+langchain
+langserve
+openai
+python-dotenv
+sse_starlette
+tiktoken
+uvicorn
