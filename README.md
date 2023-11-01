@@ -12,3 +12,13 @@ python server.py
 
 You can then connect to the [server](http://localhost:8080/docs) and test the endpoints.
 ```bash
+
+
+### Part 2: Build a chatbot with Streamlit
+
+You can run the following command to start the chatbot:
+
+```bash
+streamlit run ui.py
+```
+
