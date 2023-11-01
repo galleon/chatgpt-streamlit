@@ -6,7 +6,7 @@ import requests
 # Function for generating response from LLMSetve
 def generate_response(prompt_input):
     inputs = {"input": {"question": prompt_input}}
-    response = requests.post("http://localhost:8080/invoke", json=inputs)
+    response = requests.post("https://c007-91-174-165-234.ngrok-free.app/invoke", json=inputs)
 
     return response.json()["output"]["answer"]
 

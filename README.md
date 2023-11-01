@@ -22,3 +22,12 @@ You can run the following command to start the chatbot:
 streamlit run ui.py
 ```
 
+
+### Part 3: Deploy to Streamlit Cloud
+
+You can deploy the chatbot to Streamlit Cloud by makging sure your streamlit file is in a public repo.
+You then need to create a new app on Streamlit Cloud and connect it to your repo.
+
+You also need to use ngrok to give access the port your LangServe app is running on
+
+My bot is available on [https://mychattybox.streamlit.app/](https://mychattybox.streamlit.app/)
